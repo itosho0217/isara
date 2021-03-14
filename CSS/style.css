@@ -1,0 +1,76 @@
+/* header */
+.header{
+    height: 76px;
+}
+
+.nav-bar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 16px 7%;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav-logobox{
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-logobox p{
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-logo img{
+    width: 128px;
+}
+
+.nav-bar .n-btn{
+    display: block;
+    background-color: #da6b64;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .2em;
+}
+
+.nav-bar .n-btn:hover{
+    text-decoration: none;
+    background-color: #d84940
+}
+
+/* mainここから */
+.sec1{
+    background: url(/img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+  
+.sec1-contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.sec1-h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+  
+.sec1-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
