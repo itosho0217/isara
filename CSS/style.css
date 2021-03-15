@@ -203,3 +203,67 @@
     color: white;
     text-align: center;
 }
+
+.sec4-h2{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sec4-h3{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.sec4-box{
+    background-color: #FFFFFF;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 35px 0;
+    border: 2px solid #EBB94D;
+    border-radius: 5px;
+}
+
+.sec4-img{
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+   
+}
+
+.sec4-img P{
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+/* section5 */
+.sec5{
+    background-image: url(../img/aboutsecondbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.sec5-h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.sec5 p{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.yellow{
+    color: #ebb94d;
+}
