@@ -41,14 +41,11 @@
     letter-spacing: .2em;
 }
 
-.nav-bar .n-btn:hover{
-    text-decoration: none;
-    background-color: #d84940
-}
 
 /* mainここから */
+/* section1 */
 .sec1{
-    background: url(/img/main.jpg);
+    background-image: url(../img/main.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -72,5 +69,137 @@
   
 .sec1-subtitle{
     font-size: 20px;
+}
+
+/* section2 */
+.sec2{
+    background-color: #EBB94D;
     font-weight: 600;
+    padding: 35px 0;
+}
+  
+  
+.sec2 p{
+    color: white;
+    font-size: 20px;
+}
+  
+.sec2-span{
+    color: #c7254e;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+  
+.sec2-btn{
+    margin: 50px auto;
+}
+  
+.sec2-btn a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 30px 120px;
+    background-color: #da6b64;
+    border-radius: 50px;
+}
+  
+.sec2-btn a:hover{
+    background-color: #d84940;
+    text-decoration: none;
+}
+  
+.sec2-ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.sns {
+    display: flex;
+    justify-content: center;
+    line-height: 10px;  
+}
+
+/* section3 */
+.yellowbracketswide {
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.yellowbracketswide::before, .yellowbracketswide::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.yellowbracketswide::before { 
+    top: 0; 
+    left: 0; 
+    border-top: 4px solid #ebb94d; 
+    border-left: 4px solid #ebb94d;
+}
+
+.yellowbracketswide::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d; 
+    border-right: 4px solid #ebb94d;
+}
+
+.sec3{
+    background: url(../img/introbottom.jpg);
+    background-size: cover;
+    background-position: center;
+}
+  
+.sec3-h2{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+}
+  
+.sec3-textbox{
+    padding: 40px 0;
+}
+    
+.sec3-textbox p{
+    text-align: center;
+}
+  
+.sec3-span{
+    font-weight: 600;
+    background:linear-gradient(transparent 70%, #EBB94D 70%);
+}
+
+/* secsion4 */
+.sec4{
+    background-color: #FEF5E0;
+    padding-bottom: 70px;
+}
+
+.about{
+    position: relative;
+    top: -40px;
+}
+
+.about p{
+    margin: 0 auto;
+    background-color: #EBB94D;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    text-align: center;
 }
