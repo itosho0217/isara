@@ -267,3 +267,205 @@
 .yellow{
     color: #ebb94d;
 }
+
+.sec5-contents{
+    justify-content: center;
+    text-align: center;
+}
+  
+.sec5-box{
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 400px;
+    padding: 30px 30px 10px;
+    border-radius: 5px;
+}
+ 
+.sec5-contents-h4{
+    width: 100%;
+    margin: auto;
+    background-color: #EBB94D;
+    border-radius: 3px;
+    color: white;
+}
+
+.sec5-box p{
+    color: black;
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* section6 */
+.sec6-blueback{
+    background-color: #036EA8;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sec6 p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sec6-text span{
+    color: #EBB94D;
+}
+
+/* section7 */
+.sec7-h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 20px 0 35px;
+}
+
+.sec7-h2 span{
+    font-size: 14px;
+}
+
+.sec7-h3{
+    font-size: 16px;
+    text-align: center;
+    margin: 30px;
+}
+
+.sec7-contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec7-contents img{
+    width: 180px;
+    height: 180px;
+}
+
+.sec7-p{
+    font-size: 14pt;
+    text-align: center;
+    padding: 40px;
+}
+
+/* section8 */
+.sec8{
+    background-color: #FDF5E0;
+    padding: 30px 0;
+  }
+  
+.sec8-h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+  
+.sec8-h2 span{
+    font-size: 28px;
+    display: block;
+}
+  
+.sec8-contents{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+  
+.sec8-item{
+    padding: 25px;
+}
+  
+.sec8-h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ebb94d;
+    padding: 15px 0 10px;
+}
+  
+.sec8-p{
+    width: 300px;
+}
+  
+.sec8-textbox{
+    width: 80%;
+    background-color: #fff;
+    border: 2px solid #EBB94D;
+    padding: 30px;
+    margin: 30px auto;
+    text-align: center;
+}
+ 
+.sec8-boxtitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ebb94d;
+}
+  
+.sec8-text-h4{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
+}
+  
+.sec8-text{
+    font-size: 14px;
+}
+  
+.sec8 p{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* section9 */
+.sec9-background{
+    background-image: url(../img/teacherbg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.ec9-h2{
+    font-size: 24px;
+    /* font-weight: 600; */
+}
+
+.img-cercle{
+    border-radius: 50%;
+}
+
+.sec-9-text-description{
+    width: 300px;
+}
+
+.contens-left{
+    display: flex;
+    justify-content: center;
+}
+
+.contens-center{
+    display: flex;
+    justify-content: center;
+}
+
+.contens-right{
+    display: flex;
+    justify-content: center;
+}
+.sec9-textbox{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #fff;
+    width: 340px;
+    height: auto;
+}
+
+.sec9-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+}
